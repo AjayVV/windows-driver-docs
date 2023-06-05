@@ -54,13 +54,13 @@ Display the full path to a named object. This flag has an effect only if **0x1**
 The *Flags* parameter is optional. The default value is 0x9.
 
 <span id="_______Path______"></span><span id="_______path______"></span><span id="_______PATH______"></span> *Path*   
-If the first argument begins with a backslash (\), **!object** interprets it as an object path name. When this option is used, the display will be arranged according to the directory structure used by the Object Manager.
+If the first argument begins with a backslash (`\`), **!object** interprets it as an object path name. When this option is used, the display will be arranged according to the directory structure used by the Object Manager.
 
 <span id="_______Name______"></span><span id="_______name______"></span><span id="_______NAME______"></span> *Name*   
 If the first argument is zero, the second argument is interpreted as the name of a class of system objects for which to display all instances.
 
 <span id="_______-p"></span><span id="_______-P"></span> **-p**  
-Display private object name spaces.
+Display private object namespaces.
 
 <span id="-h-_"></span><span id="-H-_"></span>{**-h**|**-?**}  
 Display help for this command.
@@ -161,7 +161,7 @@ Object: ffffc00b07628fb0  Type: (ffffe0083b769450) SymbolicLink
 
 ### <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>Additional Information
 
-For information about objects and the object manager, see the Microsoft Windows SDK documentation, the Windows Driver Kit (WDK) documentation, and *Microsoft Windows Internals*, by Mark Russinovich and David Solomon.
+For information about objects and the Object Manager, see the Microsoft Windows SDK documentation, the Windows Driver Kit (WDK) documentation, and *Microsoft Windows Internals*, by Mark Russinovich and David Solomon.
 
 ## <span id="see_also"></span>See also
 
